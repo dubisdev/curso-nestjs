@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_DDwdFBFMVn
-createdAt: 2025-05-25T10:56:10.172971100
-updatedAt: 2025-05-25T11:30:57.398599900
+id: rq_Yg59P8yxdh
+createdAt: 2025-05-25T11:36:05.728349100
+updatedAt: 2025-05-25T11:36:23.206571900
 workspaceId: wk_SUeAMXacmD
 folderId: fl_a4Br3YgnmG
 authentication: {}
@@ -11,8 +11,8 @@ body: {}
 bodyType: null
 description: ''
 headers: []
-method: GET
-name: cars
-sortPriority: 0.0
-url: http://localhost:3000/cars
+method: DELETE
+name: delete car
+sortPriority: 1000.001
+url: http://localhost:3000/cars/1
 urlParameters: []

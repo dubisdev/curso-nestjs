@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_NVESrkRG9L
 createdAt: 2025-05-25T10:59:51.778214
-updatedAt: 2025-05-25T11:25:09.437484300
+updatedAt: 2025-05-25T11:30:57.405237900
 workspaceId: wk_SUeAMXacmD
-folderId: null
+folderId: fl_a4Br3YgnmG
 authentication: {}
 authenticationType: null
 body: {}
@@ -13,6 +13,6 @@ description: ''
 headers: []
 method: GET
 name: cars/id
-sortPriority: -1748170187463.998
-url: http://localhost:3000/cars/14
+sortPriority: 1000.0
+url: http://localhost:3000/cars/1
 urlParameters: []

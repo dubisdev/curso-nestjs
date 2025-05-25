@@ -1,0 +1,32 @@
+type: http_request
+model: http_request
+id: rq_GcNFT9ngJc
+createdAt: 2025-05-25T11:34:35.323795400
+updatedAt: 2025-05-25T11:34:51.824977
+workspaceId: wk_SUeAMXacmD
+folderId: fl_a4Br3YgnmG
+authentication: {}
+authenticationType: null
+body:
+  form:
+  - enabled: true
+    name: brand
+    value: Volvo
+  - enabled: true
+    name: model
+    value: XC40
+  - enabled: true
+    name: ''
+    value: ''
+bodyType: application/x-www-form-urlencoded
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/x-www-form-urlencoded
+  id: Jd2Y6F850Z
+method: PATCH
+name: update (patch)
+sortPriority: 0.002
+url: http://localhost:3000/cars/1
+urlParameters: []

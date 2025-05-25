@@ -1,0 +1,11 @@
+type: workspace
+model: workspace
+id: wk_SUeAMXacmD
+createdAt: 2025-05-25T10:49:43.159150
+updatedAt: 2025-05-25T10:49:43.159151300
+name: curso-nestjs
+description: ''
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0

@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_GcNFT9ngJc
 createdAt: 2025-05-25T11:34:35.323795400
-updatedAt: 2025-05-27T18:13:27.274569200
+updatedAt: 2025-05-27T18:24:49.364050300
 workspaceId: wk_SUeAMXacmD
 folderId: fl_a4Br3YgnmG
 authentication: {}
@@ -27,6 +27,6 @@ headers:
   id: Jd2Y6F850Z
 method: PATCH
 name: update (patch)
-sortPriority: 0.002
+sortPriority: 2000.0
 url: http://localhost:3000/cars/a93b17fe-f44b-4e40-8139-9fd65b6168ed
 urlParameters: []

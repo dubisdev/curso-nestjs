@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_Yg59P8yxdh
 createdAt: 2025-05-25T11:36:05.728349100
-updatedAt: 2025-05-27T18:13:37.881878
+updatedAt: 2025-05-27T18:24:49.356337800
 workspaceId: wk_SUeAMXacmD
 folderId: fl_a4Br3YgnmG
 authentication: {}
@@ -13,6 +13,6 @@ description: ''
 headers: []
 method: DELETE
 name: delete car
-sortPriority: 1000.001
+sortPriority: 4000.0
 url: http://localhost:3000/cars/a93b17fe-f44b-4e40-8139-9fd65b6168ed
 urlParameters: []

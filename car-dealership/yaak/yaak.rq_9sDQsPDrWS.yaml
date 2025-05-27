@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_9sDQsPDrWS
 createdAt: 2025-05-25T11:31:13.466592600
-updatedAt: 2025-05-27T17:21:17.202582
+updatedAt: 2025-05-27T18:24:49.360175400
 workspaceId: wk_SUeAMXacmD
 folderId: fl_a4Br3YgnmG
 authentication: {}
@@ -27,6 +27,6 @@ headers:
   id: Jd2Y6F850Z
 method: POST
 name: create (post)
-sortPriority: 0.001
+sortPriority: 1000.0
 url: http://localhost:3000/cars
 urlParameters: []

@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_8Pst4Jc3Wg
+createdAt: 2025-05-27T18:36:04.413625100
+updatedAt: 2025-05-27T18:47:40.960970700
+workspaceId: wk_SUeAMXacmD
+folderId: fl_ExeDug8YFC
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: delete brand
+sortPriority: 4000.0
+url: http://localhost:3000/brands/a814d9fa-e388-41ff-bb41-1d8bd9ac4be8
+urlParameters: []

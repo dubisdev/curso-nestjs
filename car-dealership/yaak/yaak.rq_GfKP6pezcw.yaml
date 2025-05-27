@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_GfKP6pezcw
+createdAt: 2025-05-27T18:36:04.414274200
+updatedAt: 2025-05-27T18:47:29.201117900
+workspaceId: wk_SUeAMXacmD
+folderId: fl_ExeDug8YFC
+authentication: {}
+authenticationType: null
+body:
+  form:
+  - enabled: true
+    name: name
+    value: Test
+  - enabled: true
+    name: ''
+    value: ''
+bodyType: application/x-www-form-urlencoded
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/x-www-form-urlencoded
+  id: Jd2Y6F850Z
+method: POST
+name: create (post)
+sortPriority: 1000.0
+url: http://localhost:3000/brands
+urlParameters: []

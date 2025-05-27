@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_TwpFaARDXQ
-createdAt: 2025-05-25T10:49:47.466193900
-updatedAt: 2025-05-27T18:56:45.696491700
+id: rq_Q5wSAAyo4S
+createdAt: 2025-05-27T18:56:09.304173500
+updatedAt: 2025-05-27T18:56:48.180275700
 workspaceId: wk_SUeAMXacmD
 folderId: null
 authentication: {}
@@ -12,7 +12,7 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: home
-sortPriority: 0.0
-url: http://localhost:3000/
+name: seed
+sortPriority: 500.0
+url: http://localhost:3000/seed
 urlParameters: []

@@ -9,6 +9,10 @@ async function bootstrap() {
     new ValidationPipe({
       whitelist: true,
       forbidNonWhitelisted: true,
+      transformOptions: {
+        // Dont include undefined properties in the DTO
+        exposeUnsetFields: false,
+      },
     }),
   );
 

@@ -1,0 +1,11 @@
+type: workspace
+model: workspace
+id: wk_6Nu8mhuUdt
+createdAt: 2025-05-28T15:29:33.989922500
+updatedAt: 2025-05-28T15:29:33.989923100
+name: pokedex
+description: ''
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0

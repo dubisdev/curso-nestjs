@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_cqRRsCLL6F
+createdAt: 2025-05-28T16:40:45.597463700
+updatedAt: 2025-05-28T16:52:46.710102200
+workspaceId: wk_6Nu8mhuUdt
+folderId: fl_Dqs7tgvcXK
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "no": 1,
+      "name": "Bulbasaur"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: sJcPVPwB6x
+method: POST
+name: create
+sortPriority: -0.0001
+url: http://localhost:3000/api/v2/pokemon
+urlParameters: []

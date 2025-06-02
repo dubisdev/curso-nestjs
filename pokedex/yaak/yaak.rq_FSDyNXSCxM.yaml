@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_FSDyNXSCxM
+createdAt: 2025-06-02T16:09:29.569917100
+updatedAt: 2025-06-02T16:13:41.552921900
+workspaceId: wk_6Nu8mhuUdt
+folderId: fl_Dqs7tgvcXK
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "no": 4
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 6TSpUuMxmv
+method: PATCH
+name: update one
+sortPriority: 0.002
+url: http://localhost:3000/api/v2/pokemon/5
+urlParameters: []

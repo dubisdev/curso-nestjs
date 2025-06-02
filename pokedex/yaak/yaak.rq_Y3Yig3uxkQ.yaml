@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_Y3Yig3uxkQ
 createdAt: 2025-06-02T16:50:02.190143
-updatedAt: 2025-06-02T16:52:18.335868800
+updatedAt: 2025-06-02T17:11:31.457408700
 workspaceId: wk_6Nu8mhuUdt
 folderId: fl_Dqs7tgvcXK
 authentication: {}
@@ -14,5 +14,5 @@ headers: []
 method: DELETE
 name: delete
 sortPriority: 0.002
-url: http://localhost:3000/api/v2/pokemon/charmander
+url: http://localhost:3000/api/v2/pokemon/683dd6c6f41535b2037ad9d9
 urlParameters: []

@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_dFQPbFQhFQ
 createdAt: 2025-06-02T15:58:41.957965200
-updatedAt: 2025-06-02T16:03:55.565863
+updatedAt: 2025-06-02T17:11:25.148947300
 workspaceId: wk_6Nu8mhuUdt
 folderId: fl_Dqs7tgvcXK
 authentication: {}
@@ -14,5 +14,5 @@ headers: []
 method: GET
 name: get one
 sortPriority: 0.001
-url: http://localhost:3000/api/v2/pokemon/1
+url: http://localhost:3000/api/v2/pokemon/4
 urlParameters: []

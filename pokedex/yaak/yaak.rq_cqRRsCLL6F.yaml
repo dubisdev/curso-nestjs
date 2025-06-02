@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_cqRRsCLL6F
 createdAt: 2025-05-28T16:40:45.597463700
-updatedAt: 2025-06-02T15:57:29.755250100
+updatedAt: 2025-06-02T16:52:28.010981500
 workspaceId: wk_6Nu8mhuUdt
 folderId: fl_Dqs7tgvcXK
 authentication: {}
@@ -10,8 +10,8 @@ authenticationType: null
 body:
   text: |-
     {
-      "no": 4,
-      "name": "Charmander"
+      "no": 1,
+      "name": "Bulbasaur"
     }
 bodyType: application/json
 description: ''

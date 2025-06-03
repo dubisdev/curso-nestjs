@@ -46,3 +46,23 @@ Prerequisites:
     ```bash
     curl -X POST http://localhost:3000/seed
     ```
+
+### Production Environment
+
+First time:
+
+```bash
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
+Subsequent runs (after changes to the code):
+
+```bash
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -d
+```
+
+Stop:
+
+```bash
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod down
+```

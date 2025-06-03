@@ -33,3 +33,16 @@ Prerequisites:
     ```bash
     docker compose up -d
     ```
+
+5. Clone the __env.template__ file to __.env__ and fill in the required values.
+6. Run the application:
+
+    ```bash
+    bun run start:dev
+    ```
+
+7. Rebuild the database using the /seed endpoint:
+
+    ```bash
+    curl -X POST http://localhost:3000/seed
+    ```

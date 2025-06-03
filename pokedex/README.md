@@ -49,6 +49,11 @@ Prerequisites:
 
 ### Production Environment
 
+1. Create ___.env.prod__
+
+2. Fill in the required values in ___.env.prod__.
+3. Build and run the application using Docker Compose:
+
 First time:
 
 ```bash

@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_JRizcjNpog
+createdAt: 2025-06-02T18:16:35.203025600
+updatedAt: 2025-06-03T17:24:12.596281
+workspaceId: wk_6Nu8mhuUdt
+folderId: fl_Dqs7tgvcXK
+authentication: {}
+authenticationType: null
+body:
+  form:
+  - enabled: true
+    name: ''
+    value: ''
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: get all paginated
+sortPriority: 0.001
+url: http://localhost:3000/api/v2/pokemon
+urlParameters:
+- enabled: true
+  name: limit
+  value: '10'
+  id: SR3z6WGrkD
+- enabled: true
+  name: offset
+  value: '60'
+  id: mzD0acdAYh
+- enabled: true
+  name: ''
+  value: ''
+  id: s2ZyZf9dqV

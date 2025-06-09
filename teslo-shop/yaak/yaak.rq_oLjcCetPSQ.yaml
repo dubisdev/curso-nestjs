@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_oLjcCetPSQ
 createdAt: 2025-06-09T16:46:12.500862500
-updatedAt: 2025-06-09T17:04:57.895293100
+updatedAt: 2025-06-09T17:23:03.765297400
 workspaceId: wk_uzgSHnNQco
 folderId: fl_dsUhFqboUd
 authentication: {}
@@ -10,10 +10,10 @@ authenticationType: null
 body:
   text: |-
     {
-      "title": "David Shirt",
+      "title": "David Shirt1",
       "sizes": ["S", "M"],
       "gender": "unisex",
-      "slug": "david-shirt",
+      "slug": "trying to do anything differnet",
       "price": 159.99
     }
 bodyType: application/json
@@ -24,7 +24,7 @@ headers:
   value: application/json
   id: 2SAjjEPSiE
 method: POST
-name: ''
+name: Create  product
 sortPriority: -1749484993375.0
 url: http://localhost:3000/api/products
 urlParameters: []

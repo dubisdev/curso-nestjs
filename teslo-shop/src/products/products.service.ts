@@ -1,12 +1,19 @@
-import { Injectable, InternalServerErrorException } from '@nestjs/common';
+import {
+  BadRequestException,
+  Injectable,
+  InternalServerErrorException,
+  Logger,
+} from '@nestjs/common';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Product } from './entities/product.entity';
-import { Repository } from 'typeorm';
+import { QueryFailedError, Repository } from 'typeorm';
 
 @Injectable()
 export class ProductsService {
+  private readonly logger = new Logger(ProductsService.name);
+
   constructor(
     @InjectRepository(Product)
     private readonly productRepository: Repository<Product>,
@@ -20,8 +27,7 @@ export class ProductsService {
 
       return product;
     } catch (error) {
-      console.log(error);
-      throw new InternalServerErrorException();
+      this.handleException(error);
     }
   }
 
@@ -39,5 +45,20 @@ export class ProductsService {
 
   remove(id: number) {
     return `This action removes a #${id} product`;
+  }
+
+  private handleException(error: unknown) {
+    if (error instanceof QueryFailedError) {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+      if ((error as any).code === '23505') {
+        throw new BadRequestException();
+      }
+    }
+
+    this.logger.error(error);
+
+    throw new InternalServerErrorException(
+      'Unexpected error, check server logs',
+    );
   }
 }

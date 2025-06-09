@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_BVJ4gsXKo5
+createdAt: 2025-06-09T17:25:56.008434800
+updatedAt: 2025-06-09T17:28:34.514527800
+workspaceId: wk_uzgSHnNQco
+folderId: fl_dsUhFqboUd
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: Delete product
+sortPriority: 2000.0
+url: http://localhost:3000/api/products/d5799c0d-93a2-41c0-925a-842f66266165
+urlParameters: []

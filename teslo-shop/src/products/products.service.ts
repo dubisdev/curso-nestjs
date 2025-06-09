@@ -32,19 +32,23 @@ export class ProductsService {
   }
 
   findAll() {
-    return `This action returns all products`;
+    return this.productRepository.find();
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} product`;
+  findOne(id: string) {
+    return this.productRepository.findOneBy({ id });
   }
 
   update(id: number, updateProductDto: UpdateProductDto) {
     return `This action updates a #${id} product`;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} product`;
+  async remove(id: string) {
+    const result = await this.productRepository.delete({ id });
+
+    if (result.affected === 1) return;
+
+    throw new BadRequestException(`Product with id ${id} not found`);
   }
 
   private handleException(error: unknown) {

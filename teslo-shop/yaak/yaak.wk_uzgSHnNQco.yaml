@@ -1,0 +1,14 @@
+type: workspace
+model: workspace
+id: wk_uzgSHnNQco
+createdAt: 2025-06-09T16:03:09.586358500
+updatedAt: 2025-06-09T16:03:09.586359100
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: TesloShop
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0

@@ -2,17 +2,34 @@ type: http_request
 model: http_request
 id: rq_yi9Ep8m9Pp
 createdAt: 2025-06-09T16:45:29.548850
-updatedAt: 2025-06-09T17:28:34.497785400
+updatedAt: 2025-06-09T17:42:41.303426100
 workspaceId: wk_uzgSHnNQco
 folderId: fl_dsUhFqboUd
 authentication: {}
 authenticationType: null
-body: {}
-bodyType: null
+body:
+  text: ''
+bodyType: application/json
 description: ''
-headers: []
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: HxPinFSU4q
 method: GET
 name: All products
 sortPriority: 0.0
 url: http://localhost:3000/api/products
-urlParameters: []
+urlParameters:
+- enabled: true
+  name: limit
+  value: '10'
+  id: saD9giyZpK
+- enabled: true
+  name: offset
+  value: '1'
+  id: pWsPAiNhfV
+- enabled: true
+  name: ''
+  value: ''
+  id: ss85zQ68UU

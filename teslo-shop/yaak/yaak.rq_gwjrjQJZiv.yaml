@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_gwjrjQJZiv
 createdAt: 2025-06-09T16:03:13.385726100
-updatedAt: 2025-06-09T16:03:33.622470600
+updatedAt: 2025-06-09T16:45:58.076996600
 workspaceId: wk_uzgSHnNQco
 folderId: null
 authentication: {}
@@ -13,6 +13,6 @@ description: ''
 headers: []
 method: GET
 name: Get Home
-sortPriority: -1749484993375.0
+sortPriority: 0.0
 url: http://localhost:3000
 urlParameters: []

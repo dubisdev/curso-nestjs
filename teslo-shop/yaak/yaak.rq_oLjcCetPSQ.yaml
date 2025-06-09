@@ -1,0 +1,23 @@
+type: http_request
+model: http_request
+id: rq_oLjcCetPSQ
+createdAt: 2025-06-09T16:46:12.500862500
+updatedAt: 2025-06-09T16:46:26.998582400
+workspaceId: wk_uzgSHnNQco
+folderId: fl_dsUhFqboUd
+authentication: {}
+authenticationType: null
+body:
+  text: "{\n  \n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 2SAjjEPSiE
+method: POST
+name: ''
+sortPriority: -1749484993375.0
+url: http://localhost:3000/api/products
+urlParameters: []

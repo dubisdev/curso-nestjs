@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_yi9Ep8m9Pp
+createdAt: 2025-06-09T16:45:29.548850
+updatedAt: 2025-06-09T16:46:06.438186600
+workspaceId: wk_uzgSHnNQco
+folderId: fl_dsUhFqboUd
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: All products
+sortPriority: -1749484993375.0
+url: http://localhost:3000/api/products
+urlParameters: []

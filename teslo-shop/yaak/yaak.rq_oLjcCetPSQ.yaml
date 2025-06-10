@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_oLjcCetPSQ
 createdAt: 2025-06-09T16:46:12.500862500
-updatedAt: 2025-06-09T17:28:34.510298
+updatedAt: 2025-06-10T17:32:48.744933100
 workspaceId: wk_uzgSHnNQco
 folderId: fl_dsUhFqboUd
 authentication: {}
@@ -10,10 +10,10 @@ authenticationType: null
 body:
   text: |-
     {
-      "title": "David Shirt1",
+      "title": "David Shirt2",
       "sizes": ["S", "M"],
       "gender": "unisex",
-      "slug": "trying to do anything differnet",
+      "slug": "david shirt 2",
       "price": 159.99
     }
 bodyType: application/json

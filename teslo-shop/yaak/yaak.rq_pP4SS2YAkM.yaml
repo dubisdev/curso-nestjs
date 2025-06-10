@@ -1,0 +1,28 @@
+type: http_request
+model: http_request
+id: rq_pP4SS2YAkM
+createdAt: 2025-06-10T17:30:57.827112100
+updatedAt: 2025-06-10T17:38:13.837780500
+workspaceId: wk_uzgSHnNQco
+folderId: fl_dsUhFqboUd
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "price": 2,
+      "title": "Davidshirt1",
+      "slug": "sss dsdfcas"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 5Ncygznm8G
+method: PATCH
+name: Update Product
+sortPriority: 500.001
+url: http://localhost:3000/api/products/7e1c9913-bed1-4d0f-a65d-64f67fea4ef0
+urlParameters: []

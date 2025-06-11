@@ -6,8 +6,14 @@
 4. Cambiar las variables de entorno
 5. Levantar la base de datos con Docker
 
-```bash
-docker compose up -d
-```
+    ```bash
+    docker compose up -d
+    ```
 
-6. Levantar dev ```pnpm start:dev```
+6. Ejecutar Seed
+
+    ```http
+    http://localhost:3000/api/seed
+    ```
+
+7. Levantar dev ```pnpm start:dev```

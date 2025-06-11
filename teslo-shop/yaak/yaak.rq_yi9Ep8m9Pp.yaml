@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_yi9Ep8m9Pp
 createdAt: 2025-06-09T16:45:29.548850
-updatedAt: 2025-06-10T17:24:18.894749100
+updatedAt: 2025-06-11T17:23:20.213614800
 workspaceId: wk_uzgSHnNQco
 folderId: fl_dsUhFqboUd
 authentication: {}
@@ -23,7 +23,7 @@ url: http://localhost:3000/api/products
 urlParameters:
 - enabled: true
   name: limit
-  value: '10'
+  value: '500'
   id: saD9giyZpK
 - enabled: false
   name: offset
@@ -32,4 +32,4 @@ urlParameters:
 - enabled: true
   name: ''
   value: ''
-  id: hjzdiziDFn
+  id: bNS7SmHAPp

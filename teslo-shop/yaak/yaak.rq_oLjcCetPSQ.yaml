@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_oLjcCetPSQ
 createdAt: 2025-06-09T16:46:12.500862500
-updatedAt: 2025-06-10T17:32:48.744933100
+updatedAt: 2025-06-11T16:38:56.735437
 workspaceId: wk_uzgSHnNQco
 folderId: fl_dsUhFqboUd
 authentication: {}
@@ -10,11 +10,12 @@ authenticationType: null
 body:
   text: |-
     {
-      "title": "David Shirt2",
+      "title": "David Shirt 51",
       "sizes": ["S", "M"],
       "gender": "unisex",
-      "slug": "david shirt 2",
-      "price": 159.99
+      "slug": "david shirt 51",
+      "price": 159.99,
+      "images": ["1", "d"]
     }
 bodyType: application/json
 description: ''

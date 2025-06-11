@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_EB2VsSHw3f
 createdAt: 2025-06-09T17:28:16.636938200
-updatedAt: 2025-06-10T17:25:53.427738
+updatedAt: 2025-06-11T16:45:09.978568100
 workspaceId: wk_uzgSHnNQco
 folderId: fl_dsUhFqboUd
 authentication: {}
@@ -14,5 +14,5 @@ headers: []
 method: GET
 name: Get Product
 sortPriority: 500.0
-url: http://localhost:3000/api/products/David shirt1
+url: http://localhost:3000/api/products/david-shirt-50
 urlParameters: []

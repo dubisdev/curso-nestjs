@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_pP4SS2YAkM
 createdAt: 2025-06-10T17:30:57.827112100
-updatedAt: 2025-06-10T17:42:00.958284200
+updatedAt: 2025-06-11T17:03:16.988091100
 workspaceId: wk_uzgSHnNQco
 folderId: fl_dsUhFqboUd
 authentication: {}
@@ -13,7 +13,8 @@ body:
       "price": 2,
       "title": "Davidshirt1",
       "slug": "sss dsdfcas",
-      "tags": ["test"]
+      "tags": ["test"],
+      "images": ["eeree"]
     }
 bodyType: application/json
 description: ''

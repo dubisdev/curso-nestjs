@@ -13,10 +13,14 @@ import { FilesService } from './files.service';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { diskStorage } from 'multer';
 import { fileFilter, fileNamer } from './helpers';
+import { ConfigService } from '@nestjs/config';
 
 @Controller('files')
 export class FilesController {
-  constructor(private readonly filesService: FilesService) {}
+  constructor(
+    private readonly filesService: FilesService,
+    private readonly configService: ConfigService,
+  ) {}
 
   @Post('product')
   @UseInterceptors(
@@ -36,7 +40,7 @@ export class FilesController {
       throw new BadRequestException('Make sure that a valid file is provided');
     }
 
-    const secureUrl = `http://localhost:3000/api/files/product/${file.filename}`;
+    const secureUrl = `${this.configService.getOrThrow('HOST_API')}/files/product/${file.filename}`;
 
     return {
       fileName: secureUrl,

@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_n3TQ3NMMvV
 createdAt: 2025-06-14T10:29:31.058726800
-updatedAt: 2025-06-14T10:38:00.782903200
+updatedAt: 2025-06-14T11:01:40.532158700
 workspaceId: wk_uzgSHnNQco
 folderId: fl_e4f4z26BKQ
 authentication: {}
@@ -27,5 +27,5 @@ headers:
 method: GET
 name: Get Product Image
 sortPriority: 499.99995
-url: http://localhost:3000/api/files/product/64ffda42-9ee1-4758-853a-c2f20fb80d17.jpeg
+url: http://localhost:3000/api/files/product/1473809-00-A_alt.jpg
 urlParameters: []

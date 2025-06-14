@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_Xa8WhFbUxz
-createdAt: 2025-06-14T09:58:19.408606600
-updatedAt: 2025-06-14T10:29:28.221980500
+id: rq_n3TQ3NMMvV
+createdAt: 2025-06-14T10:29:31.058726800
+updatedAt: 2025-06-14T10:38:00.782903200
 workspaceId: wk_uzgSHnNQco
 folderId: fl_e4f4z26BKQ
 authentication: {}
@@ -24,8 +24,8 @@ headers:
   name: Content-Type
   value: multipart/form-data
   id: Ui6uhuPPjM
-method: POST
-name: Upload Product
-sortPriority: 999.9999
-url: http://localhost:3000/api/files/product
+method: GET
+name: Get Product Image
+sortPriority: 499.99995
+url: http://localhost:3000/api/files/product/64ffda42-9ee1-4758-853a-c2f20fb80d17.jpeg
 urlParameters: []

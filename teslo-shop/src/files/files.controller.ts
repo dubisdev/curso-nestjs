@@ -1,10 +1,14 @@
 import {
   BadRequestException,
   Controller,
+  Get,
+  Param,
   Post,
+  Res,
   UploadedFile,
   UseInterceptors,
 } from '@nestjs/common';
+import { Response } from 'express';
 import { FilesService } from './files.service';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { diskStorage } from 'multer';
@@ -24,7 +28,7 @@ export class FilesController {
       }),
     }),
   )
-  uploadProductiFile(
+  uploadProductFile(
     @UploadedFile()
     file: Express.Multer.File,
   ) {
@@ -32,8 +36,20 @@ export class FilesController {
       throw new BadRequestException('Make sure that a valid file is provided');
     }
 
+    const secureUrl = `http://localhost:3000/api/files/product/${file.filename}`;
+
     return {
-      fileName: file.originalname,
+      fileName: secureUrl,
     };
+  }
+
+  @Get('product/:imageName')
+  findProductImage(
+    @Res() res: Response,
+    @Param('imageName') imageName: string,
+  ) {
+    const path = this.filesService.getStaticProductImage(imageName);
+
+    res.sendFile(path);
   }
 }

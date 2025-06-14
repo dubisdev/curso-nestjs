@@ -1,0 +1,31 @@
+type: http_request
+model: http_request
+id: rq_Xa8WhFbUxz
+createdAt: 2025-06-14T09:58:19.408606600
+updatedAt: 2025-06-14T10:18:25.220271200
+workspaceId: wk_uzgSHnNQco
+folderId: fl_e4f4z26BKQ
+authentication: {}
+authenticationType: null
+body:
+  form:
+  - enabled: true
+    file: C:\Users\Deiv\Desktop\foto_carnet.jpeg
+    id: UxhfrfTs0J
+    name: file
+  - enabled: true
+    id: tyevYddXRj
+    name: ''
+    value: ''
+bodyType: multipart/form-data
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: multipart/form-data
+  id: Ui6uhuPPjM
+method: POST
+name: ''
+sortPriority: 999.9999
+url: http://localhost:3000/api/files/product
+urlParameters: []

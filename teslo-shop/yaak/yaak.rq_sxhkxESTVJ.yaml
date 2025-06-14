@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_sxhkxESTVJ
 createdAt: 2025-06-11T17:11:16.004540500
-updatedAt: 2025-06-11T17:11:38.007504300
+updatedAt: 2025-06-14T09:58:16.145644
 workspaceId: wk_uzgSHnNQco
 folderId: null
 authentication: {}
@@ -13,6 +13,6 @@ description: ''
 headers: []
 method: GET
 name: Seed
-sortPriority: 500.0
+sortPriority: 1000.0
 url: http://localhost:3000/api/seed
 urlParameters: []

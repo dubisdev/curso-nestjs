@@ -14,6 +14,7 @@ export class User {
   @Column({
     type: 'text',
     nullable: false,
+    select: false, // Prevents password from being selected by default
   })
   password: string;
 

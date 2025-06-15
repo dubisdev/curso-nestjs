@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_8B9xJvBmfQ
+createdAt: 2025-06-15T09:49:38.269061100
+updatedAt: 2025-06-15T10:23:30.930295600
+workspaceId: wk_uzgSHnNQco
+folderId: fl_kUmAZCTLL6
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "email": "test@test.test",
+      "password": "Abc123"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: XHf5zaE5Rw
+method: POST
+name: Login
+sortPriority: 500.00085
+url: http://localhost:3000/api/auth/login
+urlParameters: []

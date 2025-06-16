@@ -2,12 +2,11 @@ type: http_request
 model: http_request
 id: rq_efLeV8SbR6
 createdAt: 2025-06-16T17:48:55.373593100
-updatedAt: 2025-06-16T17:49:22.330675200
+updatedAt: 2025-06-16T17:58:42.901406
 workspaceId: wk_uzgSHnNQco
 folderId: fl_kUmAZCTLL6
-authentication:
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjZmYxOTQ5LWJmZDEtNGMxYS1hMzEzLTNiYjBjZmVjYWQ2YiIsImlhdCI6MTc1MDA5NjE0OSwiZXhwIjoxNzUwMTAzMzQ5fQ.oLaoAec-3Y7ifQO8Tr54d6H9T4qCvp_1HrEDY9QJiuA
-authenticationType: bearer
+authentication: {}
+authenticationType: null
 body:
   text: |-
     {

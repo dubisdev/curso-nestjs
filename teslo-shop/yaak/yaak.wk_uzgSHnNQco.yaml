@@ -2,13 +2,14 @@ type: workspace
 model: workspace
 id: wk_uzgSHnNQco
 createdAt: 2025-06-09T16:03:09.586358500
-updatedAt: 2025-06-09T16:03:09.586359100
-authentication: {}
-authenticationType: null
+updatedAt: 2025-06-16T18:06:31.347928
+authentication:
+  token: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3RXJDdVlTVWRxa213Skp4WE5qU1hXbm9DUGNYZHpIaXh0b05EbzhrZllRZTExQTFFc2NTVU1oMjdUZWM4cG54MytiQThGOGFKb0ZXVVZySFpkOEVQWVBOV3htMVNtSWk3dzFEdHoreWpPZkg3WW4vdm9OdUpqYnRJRld0NExtWU1DWGppQWxVem1SaFlWQ3JmTHhNd1JoNWVjOHpwRzZBSkR5Z0loZ3dwc3pWSUlTYWtRWVlYZFNiT0t4VHozVU1tSkhwRTBEVk9PVjFtN1pyS1k2SERDVFFyNER5MkQrRjQ1QXhhSEFIVXJKTDh4dGZ0SUNsTDlNUlNSM01PdTd6L1RiZEJlRnBzSndiSkdkUy9RaWxMR04zZmFiTTdNQmpUemtpLzBBQmNhMzcyZ0puZz09') ]}
+authenticationType: bearer
 description: ''
 headers: []
 name: TesloShop
-encryptionKeyChallenge: null
+encryptionKeyChallenge: eUE0azNuQwFLU/XUVe/uOLVEk+59zJqf5vxTANLStp3/F39uzxnDcfyl8ZFqr+iXlTgDg0cb6Jyh8mrpljc5mjCVIkphMej9iIdQXrWvYRVwfSvmPCOPHfcsB9UzKCNwMIo=
 settingValidateCertificates: true
 settingFollowRedirects: true
 settingRequestTimeout: 0

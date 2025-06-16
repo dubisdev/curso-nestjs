@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_EbYR4FHo2a
 createdAt: 2025-06-15T12:05:26.495991800
-updatedAt: 2025-06-16T16:19:11.318172300
+updatedAt: 2025-06-16T17:09:12.674950600
 workspaceId: wk_uzgSHnNQco
 folderId: fl_kUmAZCTLL6
 authentication:
@@ -18,7 +18,7 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: Login
+name: private
 sortPriority: 500.00185
-url: http://localhost:3000/api/auth/private
+url: http://localhost:3000/api/auth/private3
 urlParameters: []

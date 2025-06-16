@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_JgAisEebSd
+createdAt: 2025-06-16T18:46:11.660043400
+updatedAt: 2025-06-16T18:56:19.646278400
+workspaceId: wk_uzgSHnNQco
+folderId: null
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: SocketIO test
+sortPriority: 1500.0
+url: http://localhost:3000/socket.io/socket.io.js
+urlParameters: []

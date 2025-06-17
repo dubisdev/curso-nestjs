@@ -8,9 +8,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 
     <ul id="clients-ul">
-      <li>Client 1</li>
-      <li>Client 2</li>
     </ul>
+
+    <form id="message-form">
+      <input placeholder="Type your message here" id="message-input" />
+    </form>
   </div>
 `
 

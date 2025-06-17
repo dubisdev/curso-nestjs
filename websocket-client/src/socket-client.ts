@@ -11,6 +11,8 @@ export const connectToServer = () => {
 
 const addListeners = (socket: Socket) => {
     const $serverStatusLablel = document.querySelector<HTMLSpanElement>("#server-status")!
+    const $messageForm = document.querySelector<HTMLFormElement>("#message-form")!
+    const $messageInput = document.querySelector<HTMLInputElement>("#message-input")!
 
     socket.on("connect", () => {
         $serverStatusLablel.innerHTML = "Connected"
@@ -29,5 +31,16 @@ const addListeners = (socket: Socket) => {
             li.innerText = clientId
             $clientsUl.append(li)
         })
+    })
+
+    $messageForm.addEventListener("submit", (event) => {
+        event.preventDefault()
+
+        const message = $messageInput.value
+        if (message.trim().length === 0) return
+
+        socket.emit("message-from-client", { message })
+
+        $messageInput.value = ""
     })
 }

@@ -13,10 +13,18 @@ export class MessagesWsGateway
   constructor(private readonly messagesWsService: MessagesWsService) {}
 
   handleConnection(client: Socket) {
-    console.log('Client connected:', client.id);
+    this.messagesWsService.registerClient(client);
+
+    console.log({
+      connectedClients: this.messagesWsService.getConnectedClients(),
+    });
   }
 
   handleDisconnect(client: Socket) {
-    console.log('Client disconnected:', client.id);
+    this.messagesWsService.removeClient(client.id);
+
+    console.log({
+      connectedClients: this.messagesWsService.getConnectedClients(),
+    });
   }
 }

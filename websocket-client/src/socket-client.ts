@@ -17,7 +17,17 @@ const addListeners = (socket: Socket) => {
     })
 
     socket.on("disconnect", () => {
-        console.log("Disconnected from server")
-         $serverStatusLablel.innerHTML = "Disconnected"
+        $serverStatusLablel.innerHTML = "Disconnected"
+    })
+
+    socket.on("clients-updated", (payload: { connectedClients: string[] }) => {
+        const $clientsUl = document.querySelector<HTMLUListElement>("#clients-ul")!
+        $clientsUl.innerHTML = ""
+
+        payload.connectedClients.forEach(clientId => {
+            const li = document.createElement("li")
+            li.innerText = clientId
+            $clientsUl.append(li)
+        })
     })
 }
